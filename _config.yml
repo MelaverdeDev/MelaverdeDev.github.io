@@ -23,14 +23,14 @@ email: melaverdedevs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   App developer
 baseurl: "/MelaverdeApps" # the subpath of your site, e.g. /blog
-url: https://MelaverdeDev.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://melaverdedev.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
 #remote-theme: Huxpro/huxpro
-#theme: minima
-remote-theme: minima
+theme: minima
+#remote-theme: minima
 plugins:
   - jekyll-feed
 
