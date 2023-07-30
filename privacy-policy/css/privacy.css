@@ -1,0 +1,5 @@
+.first-content {margin: 10px}
+
+ol.counted { counter-reset: item background-color:red}
+li.countedli{ display: block }
+li:before.countedi { content: counters(item, ".") " "; counter-increment: item }
